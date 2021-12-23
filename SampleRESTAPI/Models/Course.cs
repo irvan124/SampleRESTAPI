@@ -12,7 +12,7 @@ namespace SampleRESTAPI.Models
         [Key]
         //[Column("Course_id")]
         public int CourseID { get; set; }
-        [MaxLength(100)]
+        [MaxLength(125)]
         [Required]
         public string Title { get; set; }
        

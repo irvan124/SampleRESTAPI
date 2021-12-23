@@ -10,8 +10,8 @@ using SampleRESTAPI.Data;
 namespace SampleRESTAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211223072600_initMigration")]
-    partial class initMigration
+    [Migration("20211223104958_InitMigration")]
+    partial class InitMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
